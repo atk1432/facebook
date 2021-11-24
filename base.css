@@ -34,7 +34,7 @@ html {
 .header {
     background-color: #f0f2f5;
     padding: 92px 0 132px 0;
-    min-width: 500px;
+    /* min-width: 500px; */
 }
 
 .header-wrap {
@@ -184,6 +184,10 @@ html {
     font-weight: bolder;
 }
 
+/* .footer {
+    min-width: 500px;
+} */
+
 .footer-wrap {
     display: flex;
     flex-direction: column;
@@ -252,12 +256,25 @@ html {
 }
 
 
+@media (min-width: 902px) {
 
+    html, body, .header {
+        height: 100%;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+}
 
 @media (min-width: 901px) and (max-width: 1075px) {
-    .header-wrap {
+    .header-wrap, .footer-wrap {
         margin: 0 40px;
     }
+
 }
 
 @media (max-width: 901px ) {
@@ -280,5 +297,15 @@ html {
 
     .login {
         margin-top: -38px;
+    }
+
+    .footer-wrap {
+        margin: 0 40px;
+    }
+}
+
+@media (max-width: 520px) {
+    .header, .footer {
+        width: 500px;
     }
 }
