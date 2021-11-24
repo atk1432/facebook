@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    margin: 10px 0;
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.b-t-b {
+    border-radius: 8px;
+}
+
+.border-top {
+    border-radius: 8px 8px 0 0;
+}
+
+.border-bottom {
+    border-radius: 0 0 8px 8px;
+}
+
+.header {
+    background-color: #f0f2f5;
+    padding: 92px 0 132px 0;
+    min-width: 500px;
+}
+
+.header-wrap {
+    margin: auto;
+    max-width: 982px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.facebook-info__header {
+    height: 70px;
+    margin: -20px;
+    padding: 20px 0;
+}
+
+.facebook-info__nearly {
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+}
+
+.facebook-info__tutorial {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    opacity: 0.5;
+}
+
+.account-part {
+    display: flex;
+}
+
+.add-account {
+    display: block;
+    text-decoration: none;
+    width: 160px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px #dddfe2;
+    transition: box-shadow .2s ease-out;
+    margin: 0 20px 20px 0;
+}
+
+.add-account:hover {
+    box-shadow: 0 1px 8px 5px #dddfe2;
+}
+
+.add-account-img {
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f6f7;
+}
+
+.add-account-img__sign {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/NqXxvQhN4tE.png);
+    width: 42px;
+    height: 42px;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.add-account-text {
+    color: #1877f2;
+    padding: 12px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.login, .login-part, .login-part__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+    width: 396px;
+}
+
+.login-part {
+    background-color: #fff;
+    margin-top: 50px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.login-part__input {
+    padding: 14px 16px;
+    margin: 6px 0;
+    width: 330px;
+    border: 1px solid #dddfe2;
+    height: 22px;
+    line-height: 16px;
+    font-size: 17px;
+    outline: none;
+}
+
+.login-part__input:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    caret-color: #1877f2;
+}
+
+.login-part__button {
+    background-color: #1877f2;
+}
+
+.login-part__forgotten {
+    display: inline-block;
+    margin: 10px auto;
+    margin-bottom: 0;
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.border-form {
+    border-bottom: 1px solid #dadde1;
+    margin: 20px 0;
+}
+
+.signup {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #42b72a;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 900;
+    padding: 0 16px;
+    line-height: 48px;
+    font-size: 17px;
+    margin: 6px auto 16px;
+}
+
+.login-text {
+    margin: 26px 0;
+    text-decoration: none;
+    color: #1c1e21;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.login-text__create {
+    color: #333;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.footer-wrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 982px;
+    margin: auto;
+    padding: 20px 0 0;
+    font-size: 12px;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+}
+
+.language-all {
+    padding-top: 8px;
+}
+
+.language-all__item, .text-for-server {
+    text-decoration: none;
+    opacity: 0.6;
+    color: #333;
+}
+
+.language-all__item:not(.language-all__item:first-child), .add-language {
+    margin-left: 10px;
+}
+
+.add-language__all {
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    background-color: #f5f6f7;
+    padding: 1px 12px;
+    border-radius: 8px;
+    transform: translateY(4px);
+}
+
+.border-b {
+    width: 100%;
+    margin: 8px 0;
+    border-bottom: 1px solid #dddfe2;
+}
+
+.service__list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service__list li {
+    height: 18px;
+}
+
+.service__list a, .copyright {
+    display: inline-block;
+    text-decoration: none;
+    color: #8a8d91;
+    margin-right: 20px;
+}
+
+.copyright {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+@media (min-width: 901px) and (max-width: 1075px) {
+    .header-wrap {
+        margin: 0 40px;
+    }
+}
+
+@media (max-width: 901px ) {
+    .header-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header {
+        padding: 20px 0 80px;
+    }
+
+    .facebook-info {
+        text-align: center;
+    }
+
+    .facebook-info__nearly {
+        font-size: 24px;
+    }
+
+    .login {
+        margin-top: -38px;
+    }
+}
